@@ -1,0 +1,79 @@
+* , body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+.speaking{
+    padding: 100px 0;
+    overflow: auto;
+}
+.speaking .title{
+    text-align: center;
+}
+.speaking .title h2{
+    font-size: 31px;
+    margin-bottom: 10px;
+}
+.speaking .title p{
+    color: #999;
+}
+
+.speaking .img-speaking{
+    margin-top: 40px;
+}
+.speaking .img-speaking .box{
+    width: 20%;
+    float: left;
+    height: 420px;
+    position: relative;
+    overflow: hidden;
+}
+
+.speaking .img-speaking .box img{
+    width: 100%;
+    height: 420px;
+    object-fit: cover;
+}
+.speaking .img-speaking .box .box-body{
+    background-color: white;
+    position: absolute;
+    bottom: 23px;
+    left: -100%;
+    width: 87%;
+    padding: 20px;
+    transition: all .5s ease-in;
+    -webkit-transition: all .5s ease-in;
+    -moz-transition: all .5s ease-in;
+    -ms-transition: all .5s ease-in;
+    -o-transition: all .5s ease-in;
+}
+.speaking .img-speaking .box .box-body h4{
+    margin-bottom: 9px;
+}
+.speaking .img-speaking .box .box-body span{
+    color: #f44949;
+}
+.speaking .img-speaking .box:hover .box-body{
+    left: 10px;
+}
+.speaking .img-speaking .box .box-titel{
+    width: 50%;
+    height: 50px;
+    background-image: linear-gradient(120deg, #ee8425 0%, #f9488b 100%);
+    position: absolute;
+    top: -100%;
+    left: 20%;
+    transition: all .5s ease;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
+}
+.speaking .img-speaking .box:hover .box-titel{
+    top: 0;
+    
+}
